@@ -12,10 +12,6 @@ $textCol: #1f1f1f;
   font-family: "Open Sans", sans-serif;
 }
 
-@mixin second-font {
-  font-family: 'Dancing Script', cursive;
-}
-
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
   display: inline-block;
   padding: $pad1 $pad2;
@@ -64,11 +60,6 @@ body {
 
 .layout_padding-bottom {
   padding-bottom: 90px;
-}
-
-h1,
-h2 {
-  @include second-font();
 }
 
 .heading_container {
@@ -169,7 +160,6 @@ a:focus {
 }
 
 .navbar-brand {
-  @include second-font();
 
   span {
     font-weight: bold;
@@ -422,13 +412,11 @@ a:focus {
     .detail-box {
 
       h5 {
-        @include second-font();
         font-size: 24px;
         margin: 0;
       }
 
       h6 {
-        @include second-font();
         margin: 10px 0;
 
         span {
@@ -825,7 +813,6 @@ a:focus {
   .footer-logo {
     font-weight: 600;
     margin-bottom: 20px;
-    @include second-font();
   }
 
   p {
