@@ -50,7 +50,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #ffbe33;
+  color: #c8c750;
 }
 
 .heading_container p {
@@ -163,10 +163,19 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  white-space: nowrap;
+  line-height: 80px;
 }
 
-.custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #ffbe33;
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link,
+.custom_nav-container .navbar-nav .nav-item.active .nav-link {
+  background: radial-gradient(ellipse at center, rgba(200, 199, 80, 1) 0%, rgba(215, 30, 70, 0) 75%);
+}
+
+.user_link_active{
+  background: radial-gradient(ellipse at center, rgba(200, 199, 80, 0.7) 50%, rgba(215, 30, 70, 0) 80%);
+  padding: 15px;
+  
 }
 
 .custom_nav-container .nav_search-btn {
@@ -179,7 +188,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #ffbe33;
+  color: #c8c750;
 }
 
 .user_option {
@@ -200,7 +209,7 @@ a:focus {
 }
 
 .user_option .user_link:hover {
-  color: #ffbe33;
+  color: #c8c750;
 }
 
 .user_option .cart_link {
@@ -223,13 +232,13 @@ a:focus {
 }
 
 .user_option .cart_link:hover svg {
-  fill: #ffbe33;
+  fill: #c8c750;
 }
 
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #ffbe33;
+  background-color: #c8c750;
   color: #000000;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -299,6 +308,18 @@ a:focus {
   top: 0;
 }
 
+.navbar_side {
+  margin-left: -180px;
+}
+
+.navbar_side ul li a{
+  color:#000000;
+}
+
+.main_ac {
+  margin-top: -120px;
+}
+
 /*end header section*/
 /* slider section */
 .slider_section {
@@ -344,7 +365,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #ffbe33;
+  background-color: #c8c750;
   color: #000000;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -383,7 +404,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #ffbe33;
+  background-color: #c8c750;
 }
 
 .offer_section {
@@ -414,7 +435,7 @@ a:focus {
   -webkit-transition: all 0.1 0.5s;
   transition: all 0.1 0.5s;
   border-radius: 100%;
-  border: 5px solid #ffbe33;
+  border: 5px solid #a8a842;
   overflow: hidden;
 }
 
@@ -441,7 +462,7 @@ a:focus {
 .offer_section .box .detail-box a {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #ffbe33;
+  background-color: #c8c750;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -554,7 +575,7 @@ a:focus {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  background: #ffbe33;
+  background: #c8c750;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -590,7 +611,7 @@ a:focus {
 .food_section .btn-box a {
   display: inline-block;
   padding: 10px 55px;
-  background-color: #ffbe33;
+  background-color: #c8c750;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -637,7 +658,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #ffbe33;
+  background-color: #c8c750;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -699,7 +720,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #ffbe33;
+  background-color: #c8c750;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -758,7 +779,7 @@ a:focus {
 
 .client_section .box .img-box img {
   border-radius: 100%;
-  border: 5px solid #ffbe33;
+  border: 5px solid #c8c750;
   position: relative;
 }
 
@@ -769,7 +790,7 @@ a:focus {
   top: 0;
   width: 20px;
   height: 20px;
-  background-color: #ffbe33;
+  background-color: #c8c750;
   -webkit-transform: rotate(45deg) translateX(-50%);
           transform: rotate(45deg) translateX(-50%);
 }
@@ -808,7 +829,7 @@ a:focus {
 .client_section .owl-carousel .owl-nav .owl-next {
   width: 45px;
   height: 45px;
-  background-color: #ffbe33;
+  background-color: #c8c750;
   color: #ffffff;
   outline: none;
   bottom: 0px;
@@ -874,7 +895,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #ffbe33;
+  background-color: #c8c750;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all 0.3s;
@@ -932,7 +953,7 @@ a:focus {
 }
 
 .footer_section .footer_contact .contact_link_box a:hover {
-  color: #ffbe33;
+  color: #c8c750;
 }
 
 .footer_section .footer-logo {
@@ -975,7 +996,7 @@ a:focus {
 }
 
 .footer_section .footer_social a:hover {
-  color: #ffbe33;
+  color: #c8c750;
 }
 
 .footer_section .footer-info {
