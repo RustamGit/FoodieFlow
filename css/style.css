@@ -173,9 +173,7 @@ a:focus {
 }
 
 .user_link_active{
-  background: radial-gradient(ellipse at center, rgba(200, 199, 80, 0.7) 50%, rgba(215, 30, 70, 0) 80%);
-  padding: 15px;
-  
+  color: #c8c750 !important; 
 }
 
 .custom_nav-container .nav_search-btn {
