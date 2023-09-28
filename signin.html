@@ -63,15 +63,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="about.html">Über uns</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="signup.html">Registrierung <span class="sr-only">(current)</span> </a>
-              </li>
             </ul>
             <div class="user_option">
               <a href="account.html" class="user_link">
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
-              <a href="signin.html" class="order_online">
+              <a href="#" class="order_online">
                 Anmelden
               </a>
             </div>
@@ -87,23 +84,31 @@
       <div class="col-md-6 offset-md-3">
         <div class="detail-box">
           <div class="heading_container">
-            <h2>Schülerregestrierung</h2>
+            <h2>Anmeldung</h2>
           </div>
-          <form id="signupForm" method="post">
-            <div class="form-group">
-              <label for="firstname">Vorname:</label>
-              <input type="text" class="form-control" id="firstname" name="firstname" required>
+            <form id="signupForm" method="post">
+                <div class="form-group">
+                    <label for="firstname">Vorname:</label>
+                    <input type="text" class="form-control" id="firstname" name="firstname" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Nachname:</label>
+                    <input type="text" class="form-control" id="lastname" name="lastname" required>
+                </div>
+                <div class="form-group">
+                    <label for="schoolclass">Passwort:</label>
+                    <input type="text" class="form-control" id="schoolclass" name="schoolclass" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Anmelden</button>
+                <br/>
+                <br/>
+            </form>
+            <div style="text-align: center;">
+                <span>Noch nicht registriert?</span>
+                <a href="signup.html" class="order_online">
+                    Registrieren
+                </a>
             </div>
-            <div class="form-group">
-              <label for="lastname">Nachname:</label>
-              <input type="text" class="form-control" id="lastname" name="lastname" required>
-            </div>
-            <div class="form-group">
-              <label for="schoolclass">Schulklasse:</label>
-              <input type="text" class="form-control" id="schoolclass" name="schoolclass" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Registrieren</button>
-          </form>
         </div>
       </div>
     </div>
